@@ -9,12 +9,13 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.rangin</groupId>
-	<artifactId>springboot_learning</artifactId>
+	<artifactId>springboot3_learning</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot_learning</name>
+	<name>springboot3_learning</name>
 	<description>Demo project for Spring Boot3</description>
 	<properties>
 		<java.version>20</java.version>
+		<google-java-format.version>1.16.0</google-java-format.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -26,6 +27,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.googlejavaformat</groupId>
+			<artifactId>google-java-format</artifactId>
+			<version>${google-java-format.version}</version>
 		</dependency>
 	</dependencies>
 
